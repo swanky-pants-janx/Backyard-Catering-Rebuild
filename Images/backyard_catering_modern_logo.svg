@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<style>
+.title { font-family: Arial, Helvetica, sans-serif; font-size: 120px; font-weight: 600; fill: #5a8f2b; letter-spacing: 2px; }
+.small { font-family: Arial, Helvetica, sans-serif; font-size: 60px; fill: #c94b3c; }
+.tag { font-family: Arial, Helvetica, sans-serif; font-size: 55px; fill: #c94b3c; letter-spacing: 3px; }
+</style>
+
+<!-- Spatula icon -->
+<g transform="translate(520,80) rotate(12)">
+  <rect x="-6" y="80" width="12" height="260" rx="6" fill="#5a8f2b"/>
+  <rect x="-28" y="0" width="56" height="90" rx="28" fill="none" stroke="#5a8f2b" stroke-width="12"/>
+</g>
+
+<!-- Text -->
+<text x="200" y="210" class="small">The</text>
+<text x="200" y="320" class="title">Backyard</text>
+<text x="820" y="385" class="tag">catering</text>
+</svg>
