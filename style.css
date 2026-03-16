@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -314,4 +318,29 @@ MOBO OPTO
     .social-icons-tab {
         justify-content: space-around;
     }
+}
+
+/*=============
+SECTION BUTTONS
+==============*/
+
+.section-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section-btn {
+    text-decoration: none;
+    background: rgb(121, 154, 60);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all .25s ease;
+}
+
+.section-btn:hover {
+    background: rgb(93, 120, 44);
+    transform: translateY(-2px);
 }
